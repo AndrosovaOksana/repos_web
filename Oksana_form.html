@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event</title>
+</head>
+<body bgcolor="#e1ffc4">
+<form>
+	<p><h1>Опрос о проведенном мероприятии</h1></p>
+	<ol>
+		<li>
+			<em>Оцените по шкале от 1 до 5</em>
+			<table>
+				<tr>
+					<td></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>Угощение</td>
+					<td>
+						<input type="radio" name="radio1">
+					</td>
+					<td>
+						<input type="radio" name="radio1">
+					</td>
+					<td>
+						<input type="radio" name="radio1">
+					</td>
+					<td>
+						<input type="radio" name="radio1">
+					</td>
+					<td>
+						<input type="radio" name="radio1">
+					</td>
+				</tr>
+				<tr>
+					<td>Атмосфера</td>
+					<td>
+						<input type="radio" name="radio2">
+					</td>
+					<td>
+						<input type="radio" name="radio2">
+					</td>
+					<td>
+						<input type="radio" name="radio2">
+					</td>
+					<td>
+						<input type="radio" name="radio2">
+					</td>
+					<td>
+						<input type="radio" name="radio2">
+					</td>
+				</tr>
+				<tr>
+					<td>Интерьер</td>
+					<td>
+						<input type="radio" name="radio3">
+					</td>
+					<td>
+						<input type="radio" name="radio3">
+					</td>
+					<td>
+						<input type="radio" name="radio3">
+					</td>
+					<td>
+						<input type="radio" name="radio3">
+					</td>
+					<td>
+						<input type="radio" name="radio3">
+					</td>
+				</tr>
+			</table>
+		</li>
+		<li>
+			<p><em>Вы бывали ранее на подобных мероприятиях?</em></p>
+		</li>
+		<select>
+			<option selected="selected" disabled="disabled"></option>
+			<option>Да</option>
+			<option>Нет</option>
+		</select>
+		<li>
+			<p><em>Отметте галочками то, что бы Вы хотели изменить в мероприятии:</em></p>
+			<table>
+				<tr>
+					<td></td>
+					<td>
+						<input type="checkbox" name="box1">
+						Место проведения
+					</td>
+					<td>
+						<input type="checkbox" name="box1">
+						Меню
+					</td>
+					<td>
+						<input type="checkbox" name="box1">
+						Бар-меню
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="checkbox" name="box1">
+						Музыка
+					</td>
+					<td>
+						<input type="checkbox" name="box1">
+						Формат мероприятия
+					</td>
+				</tr>	
+			</table>
+			<p>Свой вариант:
+				<input type="text" placeholder="ваш вариант" name="box1">
+			</p>
+		</li>
+		<li>
+			<p><em>Как вы узнали о мероприятии?</em></p>
+			<table>
+				<tr>
+					<td>
+						<input type="radio" name="radio4">
+						Друзья
+					</td>
+					</tr>
+					<tr>
+					<td>
+						<input type="radio" name="radio4">
+						Интернет
+					</td>
+					<tr>
+					<td>
+						<input type="radio" name="radio4">
+						Реклама и СМИ
+					</td>
+				</tr>
+			</table>
+		</li>
+		<li>
+			<p><em>Сколько раз вы были на мероприятии?</em></p>
+			<input type="number" min="1" max="100" placeholder="1" name="number1">
+		</li>
+		<li>
+			<p><em>Напишите Ваш e-mail:</em></p>
+			<input type="text" placeholder="e-mail" name="e-mail">
+		</li>
+		<p><button type="button">Отправить</button></p>
+	</ol>
+</form>
+</body>
+</html>

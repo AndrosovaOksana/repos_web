@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tab</title>
+</head>
+<body>
+<form>
+<div>
+	<h1><strong>Обычная таблица</strong></h1>
+	<table border="1">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Два примера с ROWSPAN</strong></h1>
+	<table border="1">
+		<tr>
+			<td>Комирка1</td>
+			<td rowspan="2">Комирка2</td>
+			<td bgcolor="#9bf92f">Комирка3</td>
+		</tr>
+		<tr>
+			<td bgcolor="#f9f62f">Комирка4</td>
+			<td>Комирка5</td>
+		</tr>
+	</table>
+	<br>
+	<table border="1">
+		<tr>
+			<td rowspan="2">Комирка1</td>
+			<td>Комирка2</td>
+			<td>Комирка3</td>
+			<td>Комирка4</td>
+		</tr>
+		<tr>
+			<td>Комирка5</td>
+			<td>Комирка6</td>
+			<td>Комирка7</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Пример с COLSPAN</strong></h1>
+	<table border="1">
+		<tr>
+			<td>Комирка1</td>
+			<td colspan="2">Комирка2</td>
+		</tr>
+		<tr>
+			<td>Комирка3</td>
+			<td>Комирка4</td>
+			<td>Комирка5</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Заголовки (&#60TH&#62)</strong></h1>
+	<table border="1">
+		<tr>
+			<th>Заголовок 1</th>
+			<th>Заголовок 2</th>
+			<th>Заголовок 3</th>
+		</tr>
+		<tr>
+			<td bgcolor="#f9f62f">A</td>
+			<td bgcolor="#f9f62f">B</td>
+			<td bgcolor="#f9f62f">C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>COLSPAN и заголовки</strong></h1>
+	<table border="1">
+		<tr>
+			<th colspan="2">Заголовок 1</th>
+			<th colspan="2">Заголовок 2</th>
+		</tr>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+			<td>G</td>
+			<td>H</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Множественные заголовки, COLSPAN</strong></h1>
+	<table border="1">
+		<tr bgcolor="#9bf92f">
+			<th colspan="2">Заголовок 1</th>
+			<th colspan="2">Заголовок 2</th>
+		</tr>
+		<tr bgcolor="#9bf92f">
+			<th>Заголовок 3</th>
+			<th>Заголовок 4</th>
+			<th>Заголовок 5</th>
+			<th>Заголовок 6</th>
+		</tr>
+		<tr bgcolor="#9bf92f">
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+			<td>D</td>
+		</tr>
+		<tr bgcolor="#9bf92f">
+			<td>E</td>
+			<td>F</td>
+			<td>G</td>
+			<td>H</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Боковые заголовки</strong></h1>
+	<table border="1">
+		<tr>
+			<th>Заголовок 1</th>
+			<td>Комирка 1</td>
+			<td>Комирка 2</td>
+			<td>Комирка 3</td>
+		</tr>
+		<tr>
+			<th>Заголовок 2</th>
+			<td>Комирка 4</td>
+			<td>Комирка 5</td>
+			<td>Комирка 6</td>
+		</tr>
+		<tr>
+			<th>Заголовок 3</th>
+			<td>Комирка 7</td>
+			<td>Комирка 8</td>
+			<td>Комирка 9</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Боковые заголовки, ROWSPAN</strong></h1>
+	<table border="1">
+		<tr>
+			<th rowspan="2">Заголовок 1</th>
+			<td>Комирка 1</td>
+			<td>Комирка 2</td>
+			<td>Комирка 3</td>
+			<td>Комирка 4</td>
+		</tr>
+		<tr>
+			<td>Комирка 5</td>
+			<td>Комирка 6</td>
+			<td>Комирка 7</td>
+			<td>Комирка 8</td>
+		</tr>
+		<tr>
+			<th>Заголовок 2</th>
+			<td>Комирка 9</td>
+			<td>Комирка 10</td>
+			<td>Комирка 11</td>
+			<td>Комирка 12</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Пример таблицы, кторая использует все эти тэги</strong></h1>
+	<table border="1">
+		<tr>
+			<td></td>
+			<td rowspan="2"></td>
+			<th colspan="2">Средние</th>
+		</tr>
+		<tr>
+			<td></td>
+			<th>Рост</th>
+			<th>Вес</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Пол</th>
+			<th>мужчины</th>
+			<td>1.9</td>
+			<td>0.003</td>
+		</tr>
+		<tr>
+			<th>женщины</th>
+			<td>1.7</td>
+			<td>0.002</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Использование ROWSPAN/COLSPAN</strong></h1>
+	<table border="1">
+		<tr>
+			<td rowspan="2">ABCD</td>
+			<td>1234</td>
+			<td>2345</td>
+		</tr>
+		<tr>
+			<td>7583</td>
+			<td>4345</td>
+		</tr>
+		<tr>
+			<td valign="middle">DRFE</td>
+			<td colspan="2" height="40" valign="middle" align="middle">RUCE</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<center><h1>Выравнивание, отступы, рамки</h1></center>
+	<h1><strong>Таблица без рамки</strong></h1>
+	<table>
+		<tr>
+			<td>Комирка 1</td>
+			<td rowspan="2">Комирка 2</td>
+			<td>Комирка 3</td>
+		</tr>
+		<tr>
+			<td>Комирка 4</td>
+			<td>Комирка 5</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>Таблица с рамкой шириной 10</strong></h1>
+	<table border="10">
+		<tr>
+			<td>Комирка 1</td>
+			<td>Комирка 2</td>
+		</tr>
+		<tr>
+			<td>Комирка 3</td>
+			<td>Комирка 4</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h1><strong>CELLPADDING И CELLSPACING</strong></h1>
+	<dl>
+	<dd><table border="1" cellpadding="10" cellspacing="0">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+		</table>
+	</dd>
+	<br>
+	<table border="1" cellpadding="2" cellspacing="4">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<br>
+	<table border="1" cellpadding="5" cellspacing="6">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<br>
+	<dd><table border="4" cellpadding="10" cellspacing="5">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+		</table>
+	</dd>
+</div>
+<div align="center"><h1>ВЫРАВНИВАНИЕ, ЗАГОЛОВКИ И ПОДТАБЛИЦЫ</h1></div>	
+<div>
+<h1><strong>Множественные строки в таблице</strong></h1>
+<table border="">
+	<tr>
+		<th>Январь</th>
+		<th>Февраль</th>
+		<th>Март</th>
+	</tr>
+	<tr>
+		<td>Цэ комирка 1</td>
+		<td>комирка 2</td>
+		<td>Инша комирка, <br>
+		комирка 3</td>
+	</tr>
+	<tr>
+		<td>комирка 4</td>
+		<td>Ище одна, <br>
+		комирка 5</td>
+		<td>комирка 6</td>
+	</tr>
+</table>
+</div>
+<div>
+<h1>ALIGN=LEFT|RIGHT|CENTER</h1>
+<h4>Может использоваться к отдельной колонке или всему ряду</h4>
+<table border="1">
+	<tr>
+		<th>Январь</th>
+		<th>Февраль</th>
+		<th>Март</th>
+	</tr>
+	<tr>
+		<td align="center">Все по <br>
+		центру</td>
+		<td>комирка 2</td>
+		<td>Инша комирка, <br>
+		коминка 3</td>
+	</tr>
+	<tr>
+		<td align="RIGHT">По правому</td>
+		<td align="center">По центру</td>
+		<td>По умолчанию, <br>
+		по левому</td>
+	</tr>
+</table>
+</div>
+<div>
+<h1>VALIGN=TOP|BOTTOM|MIDDLE</h1>
+<h4>Может использоваться к отдельной колонке или всему ряду</h4>
+<table border="">
+	<tr>
+		<th>Январь</th>
+		<th>Февраль</th>
+		<th>Март</th>
+	</tr>
+	<tr>
+		<td valign="TOP">По верхнему</td>
+		<td>Инша комирка, <br>комирка 2</td>
+		<td valign="TOP">комирка 3</td>
+	</tr>
+	<tr>
+		<td valign="top">По верхнему</td>
+		<td valign="BOTTOM">По нижнему</td>
+		<td>По умолчанию, <br>по центру</td>
+	</tr>
+</table>
+</div>
+<div>
+<h1>CAPTION=TOP|BOTTOM</h1>
+<table border="1">
+<caption align="top">Верхний заголовок</caption>
+	<tr>
+		<th>Январь</th>
+		<th>Февраль</th>
+		<th>Март</th>
+	</tr>
+	<tr>
+		<td>Цэ комирка 1</td>
+		<td>комирка 2</td>
+		<td>Инша комирка, <br>комирка 3</td>
+	</tr>
+</table>
+<br>
+<table border="1">
+		<tr>
+			<th>Январь</th>
+			<th>Февраль</th>
+			<th>Март</th>
+		</tr>
+		<tr>
+			<td>Цэ комирка 1</td>
+			<td>комирка 2</td>
+			<td>Инша комирка, <br>комирка 3</td>
+		</tr>
+<caption align="BOTTOM">Нижний заголовок</caption>
+</table>
+</div>
+<div>
+<h1><strong>Вложенные таблицы:таблица ABCD внутри таблицы 123456</strong></h1>
+<table border="1">
+	<tr>
+		<td>1111</td>
+		<td>2222</td>
+		<td>33333
+		<table border="1">
+			<tr>
+				<td>AAAA</td>
+				<td>SSSS</td>
+			</tr>
+			<tr>
+				<td>DDDD</td>
+				<td>FFFF</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>4444</td>
+		<td>5555</td>
+		<td>6666</td>
+	</tr>
+</table>
+</div>
+<div>
+<h1><strong>Задание ширины таблицы ШИРИНА 50%</strong></h1>
+<table border="1" width="50%">
+	<tr>
+		<td>Width=50%</td>
+		<td>Width=50%</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4</td>
+	</tr>
+</table>
+<br>
+<table border="1" width="50%">
+	<tr>
+		<td>Комирка зависит от размера элемента</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4</td>
+	</tr>
+</table>
+<br>
+<table border="1" width="100%">
+	<tr>
+		<td>Width=100%</td>
+		<td>Цэ комирка 2</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>4</td>
+	</tr>
+</table>
+</div>
+<div>
+<h1><strong>Центрование таблицы на странице</strong></h1>
+<center>
+	<table border="1" width="50%">
+		<tr align="center">
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+		<tr align="center">
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+</center>
+</div>
+<div>
+<h1><strong>Ширина таблицы и вложенные таблицы</strong></h1>
+<table border="1" width="50%">
+	<tr>
+		<td>Комирка 1</td>
+		<td>Комирка 2</td>
+	</tr>
+	<tr>
+		<td>
+			<table border="1" width="100%">
+				<tr>
+					<td>Комирка А</td>
+					<td>Комирка В</td>
+				</tr>
+			</table>
+		</td>
+		<td>Комирка 4</td>
+	</tr>
+</table>
+</div>
+<h1><strong>HEIGHT=15%</strong></h1>
+<div style="height: 15%;">
+<table border="1" width="20%">
+	<tr>
+		<td>HEIGHT=15%</td>
+		<td>Комирка 2</td>
+	</tr>
+	<tr>
+		<td>Комирка 3</td>
+		<td>Комирка 4</td>
+	</tr>
+</table>
+</div>
+<div>
+	<h1><strong>HTML таблица расположенная внутри комирки</strong></h1>
+	<table border="1" style="
+	height: 86px;
+    width: 298px;
+    background-color: black;
+    border-color: black;">
+		<tr style="background-color: #A9A9A9">
+			<td style="width: 48%;"></td>
+			<td>
+				<table border="1" style="
+				background-color: white;
+				width: 58%;
+    			height: 62px;">
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+</form>
+</body>
+</html>

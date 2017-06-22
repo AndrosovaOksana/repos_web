@@ -1,0 +1,116 @@
+@font-face{
+	font-family: "Avenir-Heavy";
+	src: url("../fonts/Avenir-Heavy.ttf");
+}
+@font-face{
+	font-family: "museosans";
+	src: url("../fonts/museosans.otf");
+}
+@font-face{
+	font-family: "proxima-nova-bold";
+	src: url("../fonts/proxima-nova-bold.otf");
+}
+@font-face{
+	font-family: "proxima-nova-semibold";
+	src: url("../fonts/proxima-nova-semibold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.head *{
+	text-transform: uppercase;
+	color: #82868f;
+	font-family: "museosans";
+	display: inline;
+	width: 100%;
+	background-color: white;
+
+
+}
+
+.head-main {
+	padding-bottom: 17px;
+}
+.logotype a{
+	text-align: -webkit-left;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 28pt;
+	margin-left: 64px;
+
+
+}
+.head-words ul{
+	list-style-type: none;
+
+
+}
+.head-words-links ul{
+	list-style-type: none;
+	font-size: 10pt;
+	margin: 0 0 0 50%; 
+	padding-left: 0px;
+
+}
+
+.links a{
+	padding-right: 17px;
+	text-decoration: none;
+
+}
+.links li a:hover {
+	text-decoration: underline;
+}
+a.hover {
+	padding: 17px 25px;
+}
+a.hover:hover {
+	background-color: hsla(193, 100%, 50%, 0.69);
+	color: aliceblue;
+	border-radius: 60px;
+	text-decoration: none;
+	
+}
+.mountains {
+	background-image: url("../img/mountains.png");
+	height: 602px;
+
+}
+.bigletter {
+    font-size: -webkit-xxx-large;
+    text-align: center;
+    color: white;
+    padding-top: 281px;
+    padding: 363px 0 0;
+    font-family: "Avenir-Heavy";
+
+}
+i{
+	text-align: center;
+}
+.letter {
+	text-align: center;
+    color: white;
+    height: initial;
+    font-size: larger;
+    margin: 0px 511px;
+
+}
+p.about {
+	color: hsla(193, 100%, 50%, 0.69);
+	font-size: -webkit-xxx-large;
+	font-family: "Avenir-Heavy";
+	text-align: center;
+	margin-top: 30px;
+}
+.letter2 {
+	text-align: center;
+    height: initial;
+    font-size: larger;
+    margin: 0px 511px;
+}
+
+
+
